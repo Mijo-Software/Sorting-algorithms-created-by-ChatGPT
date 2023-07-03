@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;ARM32;ARM64;x64;x86</Platforms>
+    <StartupObject></StartupObject>
+    <Title>BounceSort</Title>
+    <Copyright>The Unlicense - This is free and unencumbered software released into the public domain. For more information, please refer to &lt;https://unlicense.org&gt;</Copyright>
+    <PackageTags>sorting-algorithm; bouncesort;</PackageTags>
+    <RepositoryUrl>https://github.com/Mijo-Software/Sorting-algorithms-created-by-ChatGPT</RepositoryUrl>
+    <RepositoryType>https://github.com/Mijo-Software/Sorting-algorithms-created-by-ChatGPT.git</RepositoryType>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <AnalysisLevel>preview-minimum</AnalysisLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
